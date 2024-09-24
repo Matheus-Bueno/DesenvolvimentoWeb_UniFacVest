@@ -1,0 +1,17 @@
+p{
+    text-align: center;
+    
+}
+
+h1{
+    background: #ececec;
+    text-align: center;
+}
+
+strong em{
+    color: red;
+}
+
+#feedback{
+    font-size: 22px;
+}
