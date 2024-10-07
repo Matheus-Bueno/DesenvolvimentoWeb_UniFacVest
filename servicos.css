@@ -28,3 +28,30 @@ nav a {
     
 }
 
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    margin: 1.5%;
+}
+
+.servicos h2{
+    font-size: 25px ;
+    font-weight: bold;
+    margin-bottom: 5px ;
+    
+}
+
+.servicos .descricao{
+    font-size: 18px;
+    margin-bottom:5px ;
+}
+
+.servicos .preco{
+    font-size: 25px;
+}
