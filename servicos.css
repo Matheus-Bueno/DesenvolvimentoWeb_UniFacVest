@@ -2,6 +2,18 @@ header{
     background-color: #e8e8e8 ;
 }
 
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
 nav li{
     display: inline-block;
     margin: 0 0 0 25px ;
@@ -9,9 +21,10 @@ nav li{
 }
 
 nav a {
-    color: #736b66;
+    color: #736b6b;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     
 }
+
