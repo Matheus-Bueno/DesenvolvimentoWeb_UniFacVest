@@ -1,47 +1,80 @@
-p{
-    text-align: center;
+header{
+    background-color: #e8e8e8 ;
+}
+
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 25px ;
+    font-size: 28px;
+}
+
+nav a {
+    color: #736b6b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
     
 }
 
-.titulo-principal{
-    background: #ececec;
-    text-align: center;
-    padding: 35 ;
+nav a:hover{
+    color: #009e35;
+    text-decoration: underline;
 }
 
-strong em{
-    color: red;
+.servicos{
+    width: 940px;
+    margin: 0 auto;
 }
 
-#feedback{
-    font-size: 22px;
-}
-
-#destaque{
-    width: 100%;
-}
-
-.itens{
-    font-size: 20px;
-    font-style: italic;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.principal{
-    background: #ececec;
-    padding: 35px;
-}
-
-.titulo-centralizado{
-    text-align: center;
-}
-
-.diferencial{
-    background: rgb(152, 152, 167);
-}
-.lista-diferencial{
-
+.servicos li{
     display: inline-block;
-    vertical-align: top;
-  }
+    text-align: center;
+    padding: 12px;
+    margin: 1.5%;
+    border: 2px solid #949494;
+    border-radius: 10px;
+
+}
+
+.servicos li:hover{
+    border-color: #009e35;
+
+}
+
+.servicos h2{
+    font-size: 25px ;
+    font-weight: bold;
+    margin-bottom: 5px ;
+    
+}
+
+.servicos h2:hover{
+    color: #009e35;
+}
+
+.servicos .descricao{
+    font-size: 18px;
+    margin-bottom:5px ;
+}
+
+.servicos .preco{
+    font-size: 25px;
+}
+
+footer{
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 50px ;
+}
