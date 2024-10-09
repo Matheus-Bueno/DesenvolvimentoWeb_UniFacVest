@@ -32,7 +32,41 @@
         </div>
     </header>
     <main>
-        nova pagina
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" placeholder="Rodolfos" class="input-text">
+
+            <label for="mail">Email:</label>
+            <input type="text" id="mail" placeholder="rodolfinho@gmail.com" class="input-text">
+
+            <label for="cel">Celular:</label>
+            <input type="text" id="cel" placeholder="(XX) XXXXX-XXXX" class="input-text">
+
+            <label for= "message">Mensagem:</label>
+            <textarea cols="70" rows="10" id="message" class="input-text"></textarea>
+
+            <div>
+                <p>Como podemos entrar em Contato?</p>
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contact"  id="radio-whatsapp" value="Whatsapp">Whatsapp
+                </label>
+
+                <label for="radio-celular">
+                    <input type="radio" name="contact"  id="radio-celular" value="Celular">Celular
+                </label>
+
+                <label for="radio-email">
+                    <input type="radio" name="contact"  id="radio-email" value="E-mail">E-mail
+                </label>
+                
+            </div>
+
+            <label class="checkbox">
+                <input type="checkbox" id="news">Quero Receber emails promocionais
+            </label>
+
+            <input type="submit" value="Enviar!" class="enviar">
+        </form>
     </main>
 
     <footer>

@@ -73,8 +73,52 @@ nav a:hover{
     font-size: 25px;
 }
 
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label,form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #009e35;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #FE858A;
+}
+
+.input-text{
+    display: block;    
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 35%;
+}
+
 footer{
     background-color: #e8e8e8;
     text-align: center;
     padding: 50px ;
 }
+
