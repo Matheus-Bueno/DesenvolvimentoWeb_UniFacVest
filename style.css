@@ -82,7 +82,7 @@ form{
     margin: 40px 0;
 }
 
-form label,form p{
+form label,form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -114,6 +114,20 @@ form label,form p{
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 35%;
+}
+
+table{
+    margin: 20px 0 40px;
+}
+th{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+th,td{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 
 footer{
